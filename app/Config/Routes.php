@@ -8,3 +8,4 @@ use CodeIgniter\Router\RouteCollection;
 $routes->get('/', 'Home::index');
 
 $routes->resource('asset-type', ['controller' => 'AssetTypeController']);
+$routes->resource('category-asset', ['controller' => 'CategoryAssetController']);
