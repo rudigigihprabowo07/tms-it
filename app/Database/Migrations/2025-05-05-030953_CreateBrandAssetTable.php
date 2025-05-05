@@ -38,11 +38,11 @@ class CreateBrandAssetTable extends Migration
             ],
         ]);
         $this->forge->addKey('id', true);
-        $this->forge->createTable('asset_brand');
+        $this->forge->createTable('brand_asset');
     }
 
     public function down()
     {
-        $this->forge->dropTable('asset_brand');
+        $this->forge->dropTable('brand_asset');
     }
 }
