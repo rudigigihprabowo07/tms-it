@@ -58,8 +58,8 @@ class CreateStandardAssetTable extends Migration
 
     public function down()
     {
-        $this->forge->dropForeignKey('category_asset', 'fk_standardasset_categoryasset');
-        $this->forge->dropForeignKey('brand_asset', 'fk_standardasset_brandasset');
+        $this->forge->dropForeignKey('standard_asset', 'fk_standardasset_categoryasset');
+        $this->forge->dropForeignKey('standard_asset', 'fk_standardasset_brandasset');
         $this->forge->dropTable('standard_asset');
     }
 }
