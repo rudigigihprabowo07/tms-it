@@ -10,3 +10,4 @@ $routes->get('/', 'Home::index');
 $routes->resource('asset-type', ['controller' => 'AssetTypeController']);
 $routes->resource('category-asset', ['controller' => 'CategoryAssetController']);
 $routes->resource('brand-asset', ['controller' => 'BrandAssetController']);
+$routes->resource('standard-asset',['controller' => 'StandardAssetController']);
