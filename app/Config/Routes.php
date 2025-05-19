@@ -13,3 +13,4 @@ $routes->resource('brand-asset', ['controller' => 'BrandAssetController']);
 $routes->resource('standard-asset',['controller' => 'StandardAssetController']);
 $routes->resource('rekanan', ['controller' => 'RekananController']);
 $routes->resource('asset-location', ['controller' => 'AssetLocationController']);
+$routes->resource('company-name', ['controller' => 'CompanyController']);
