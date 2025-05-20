@@ -15,3 +15,4 @@ $routes->resource('rekanan', ['controller' => 'RekananController']);
 $routes->resource('asset-location', ['controller' => 'AssetLocationController']);
 $routes->resource('company-name', ['controller' => 'CompanyController']);
 $routes->resource('departement', ['controller' => 'DepartementController']);
+$routes->resource('job-position', ['controller' => 'JobPositionController']);
